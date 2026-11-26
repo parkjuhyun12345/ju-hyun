@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEOUL LUXURY TOUR</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#101820;color:white}
+header{padding:25px 8%;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:23px;font-weight:bold;letter-spacing:3px}
+nav a{color:white;text-decoration:none;margin-left:20px}
+.hero{min-height:75vh;padding:130px 9%;background:linear-gradient(90deg,#101820dd,#10182044),url('https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=1600') center/cover}
+.hero h1{font-size:55px;max-width:650px}
+.hero p{font-size:18px;color:#ddd}
+.btn{display:inline-block;padding:14px 25px;background:#c9a66b;color:#111;text-decoration:none;margin-top:20px}
+section{padding:65px 9%}
+h2{font-size:32px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}
+.card{background:#1d2935;padding:15px;border-radius:8px}
+.card img{width:100%;height:180px;object-fit:cover;border-radius:5px}
+.card p{color:#ccc;line-height:1.6}
+footer{text-align:center;padding:30px;color:#aaa;background:#0b1117}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">SEOUL LUXURY</div>
+<nav><a href="#tour">관광지</a><a href="#hotel">호텔</a><a href="#schedule">여행 일정</a></nav>
+</header>
+<div class="hero">
+<h1>DISCOVER<br>THE BEAUTY OF SEOUL</h1>
+<p>서울의 특별한 순간, 프리미엄 여행을 경험하세요.</p>
+<a class="btn" href="#tour">여행 시작하기</a>
+</div>
+<section id="tour">
+<h2>서울 추천 관광지</h2>
+<div class="cards">
+<div class="card"><img src="https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=600"><h3>경복궁</h3><p>한국의 전통과 역사를 경험하는 대표 명소</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=600"><h3>남산서울타워</h3><p>서울의 아름다운 야경을 감상하는 전망 명소</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=600"><h3>명동</h3><p>쇼핑과 다양한 먹거리를 즐기는 서울의 중심</p></div>
+</div>
+</section>
+<section id="hotel">
+<h2>프리미엄 호텔</h2>
+<div class="cards">
+<div class="card"><h3>럭셔리 스테이</h3><p>편안한 객실과 특별한 서비스를 경험하세요.</p></div>
+<div class="card"><h3>호텔 다이닝</h3><p>서울의 다양한 미식과 특별한 식사를 즐겨보세요.</p></div>
+<div class="card"><h3>프리미엄 서비스</h3><p>여행의 모든 순간을 편안하게 만들어 드립니다.</p></div>
+</div>
+</section>
+<section id="schedule">
+<h2>추천 1박 2일 일정</h2>
+<p>DAY 1 : 경복궁 → 명동 → 남산서울타워</p>
+<p>DAY 2 : 호텔 조식 → 쇼핑 → 서울 도심 관광</p>
+<p>예상 여행 비용 : 1인 약 250,000원 (예시 가격)</p>
+</section>
+<footer>SEOUL LUXURY TOUR | YOUR SPECIAL JOURNEY</footer>
+</body>
+</html>
